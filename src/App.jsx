@@ -1,6 +1,5 @@
 import { useState } from "react";
-import Header from "./componentes/header";
-import SignIn from "./componentes/SignIn";
+
 import NavBar from "./componentes/NavBar";
 
 function App() {
@@ -9,8 +8,6 @@ function App() {
   return (
     <>
       <NavBar />
-      <Header />
-      <SignIn />
     </>
   );
 }
