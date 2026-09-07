@@ -15,7 +15,7 @@ export default function NavBar() {
     case "/StatsPage":
       componates = <StatsPage />;
       break;
-    case "/SignIn":
+    case "/Sign-In":
       componates = <SignIn />;
       break;  
   }
